@@ -6,7 +6,6 @@ $(document).ready(function(){
         if (data.type === 'show') {
             if (data.bool == true){
                 document.getElementById("lolz").style.display = 'block';
-               alert('lol')
 
             }else if (data.bool == false){
                 document.getElementById("lolz").style.display = 'none';
